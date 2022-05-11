@@ -103,8 +103,8 @@
                                 
                                 #container-three {
                                     display: flex;
-                                    color: rgb(36, 39, 99);
                                     align-items: center;
+                                    color: rgb(36, 39, 99);
                                     background-color: rgb(255, 255, 255);
                                 }
                                 
@@ -120,6 +120,10 @@
                                     align-items: center;
                                 }
                                 
+                                #container-four {
+                                    margin-bottom: 7em;
+                                }
+                                
                                 #main-container-four-row {
                                     margin: 1em;
                                     font-size: 20px;
@@ -128,9 +132,9 @@
                                 }
                                 
                                 #container-four .card {
-                                    text-align: center;
                                     width: 13rem;
                                     height: 28rem;
+                                    text-align: center;
                                     border-radius: 0px 0px 30px 5px;
                                 }
                                 
@@ -144,7 +148,7 @@
                                     text-align: center;
                                     justify-content: space-around;
                                     color: rgba(255, 255, 255, 0.612);
-                                    background: radial-gradient(circle, #322538, #1f1f1f);
+                                    background: radial-gradient(circle, #3c1919, #000000);
                                 }
                                 
                                 footer p {
