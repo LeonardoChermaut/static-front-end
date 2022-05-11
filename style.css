@@ -1,0 +1,216 @@
+                                @import url(https://fonts.googleapis.com/css?family=Exo+2:200,300);
+                                /* Reset */
+                                
+                                html {
+                                    scroll-behavior: smooth;
+                                }
+                                /* Header */
+                                
+                                header {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-around;
+                                    background: rgb(2, 0, 36);
+                                    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(64, 2, 108, 1) 33%, rgba(108, 2, 42, 1) 100%);
+                                }
+                                
+                                header a {
+                                    color: #FFF;
+                                    text-decoration: none;
+                                }
+                                
+                                header img {
+                                    margin: 0;
+                                    padding: 0;
+                                    width: 115px;
+                                }
+                                /* Navbar */
+                                
+                                nav {
+                                    display: flex;
+                                    border-radius: 20px;
+                                    background: rgb(2, 0, 36);
+                                    background: linear-gradient(90deg, rgb(76, 61, 103) 33%, rgba(108, 2, 42, 1) 100%);
+                                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                                }
+                                
+                                nav input {
+                                    text-align: center;
+                                }
+                                
+                                nav .nav-link:hover {
+                                    color: rgb(255, 197, 6);
+                                }
+                                
+                                nav .nav-link {
+                                    margin-left: 5px;
+                                    font-size: 16px;
+                                    color: #FFF;
+                                    text-decoration: none;
+                                }
+                                /* Section */
+                                
+                                section .imagemain {
+                                    margin-left: auto;
+                                    margin-top: 20px;
+                                    max-width: 500px;
+                                    margin-right: auto;
+                                    align-items: center;
+                                }
+                                
+                                section .card {
+                                    margin-bottom: 10px;
+                                }
+                                /* Containers */
+                                
+                                #container-one {
+                                    text-align: center;
+                                    padding-top: 1.5em;
+                                    background-color: #FFF;
+                                }
+                                
+                                #container-one .text-main {
+                                    font-size: 1.4em;
+                                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                }
+                                
+                                #container-one p {
+                                    margin: 0;
+                                    font-size: 13px;
+                                    color: #40026c;
+                                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                }
+                                
+                                #container-two {
+                                    display: flex;
+                                    color: #FFF;
+                                    align-items: center;
+                                    background-color: rgb(36, 39, 99);
+                                }
+                                
+                                #container-two img {
+                                    padding: 0;
+                                    margin: 4em;
+                                    max-width: 400px;
+                                    align-items: center;
+                                }
+                                
+                                #container-two p {
+                                    font-size: 22px;
+                                    margin-left: 2em;
+                                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                }
+                                
+                                #container-three {
+                                    display: flex;
+                                    color: rgb(36, 39, 99);
+                                    align-items: center;
+                                    background-color: rgb(255, 255, 255);
+                                }
+                                
+                                #container-three p {
+                                    font-size: 21px;
+                                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                }
+                                
+                                #container-three img {
+                                    padding: 0;
+                                    margin: 4em;
+                                    max-width: 350px;
+                                    align-items: center;
+                                }
+                                
+                                #main-container-four-row {
+                                    margin: 1em;
+                                    font-size: 20px;
+                                    text-align: center;
+                                    border-radius: 10px;
+                                }
+                                
+                                #container-four .card {
+                                    text-align: center;
+                                    width: 13rem;
+                                    height: 28rem;
+                                    border-radius: 0px 0px 30px 5px;
+                                }
+                                
+                                #container-four .btn-outline-dark {
+                                    position: block;
+                                }
+                                /* Footer */
+                                
+                                footer {
+                                    font-size: 15px;
+                                    text-align: center;
+                                    justify-content: space-around;
+                                    color: rgba(255, 255, 255, 0.612);
+                                    background: radial-gradient(circle, #322538, #1f1f1f);
+                                }
+                                
+                                footer p {
+                                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                }
+                                
+                                footer .btn-link {
+                                    text-decoration: none;
+                                    color: rgba(255, 255, 255, 0.612);
+                                }
+                                
+                                footer .footer-link:hover {
+                                    color: rgb(212, 209, 209);
+                                }
+                                
+                                .main-tittle {
+                                    font-size: 19px;
+                                    margin-top: 10px;
+                                    margin-bottom: 20px;
+                                    font-family: Georgia, 'Times New Roman', Times, serif
+                                }
+                                
+                                .footer-link {
+                                    list-style: none;
+                                    text-decoration: none;
+                                    color: rgba(255, 255, 255, 0.612);
+                                }
+                                /* Media */
+                                
+                                @media (max-width: 1280px) {
+                                    body {
+                                        display: inline-block;
+                                    }
+                                    nav {
+                                        padding: 0;
+                                        margin: 10px;
+                                    }
+                                    input,
+                                    form {
+                                        margin: 0;
+                                        padding: 0;
+                                        text-align: center;
+                                    }
+                                    .imagemain {
+                                        width: 400px;
+                                    }
+                                    #container-one .text-main,
+                                    #container-two p,
+                                    #container-three p {
+                                        font-size: 17px;
+                                    }
+                                    #container-two img,
+                                    #container-three img {
+                                        width: 150px;
+                                        margin: 2em;
+                                    }
+                                    #cards-four-row {
+                                        margin-left: 100px;
+                                        margin-right: 0;
+                                        padding: 0;
+                                    }
+                                }
+                                
+                                @media (max-width: 600px) {
+                                    nav .nav-link {
+                                        margin: 0;
+                                        font-size: 13px;
+                                    }
+                                }
