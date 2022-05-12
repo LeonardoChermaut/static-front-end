@@ -34,7 +34,10 @@
                                     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                                 }
                                 
-                                nav input {
+                                nav {
+                                    background-color: transparent;
+                                    border: 0;
+                                    margin-left: 50px;
                                     text-align: center;
                                 }
                                 
