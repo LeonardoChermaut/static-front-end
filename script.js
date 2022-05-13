@@ -7,7 +7,6 @@ function getUsers() {
         return resultado.json();
     }).then(response => {
         let cards = document.getElementsByClassName('card')
-
         response.results.forEach((user, index) => {
             let card = cards[index]
             let photo = card.getElementsByClassName('card-img-top')[0];
@@ -18,7 +17,6 @@ function getUsers() {
 
             let description = card.getElementsByClassName('card-text')[0];
             description.innerHTML = ` ${user.location.city}<br>${user.location.country}<br>${user.location.timezone.description}`
-
         });
     })
 }

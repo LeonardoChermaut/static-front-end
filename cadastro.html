@@ -20,10 +20,8 @@
 </head>
 
 <body>
-
     <header class=>
         <a href="index.html"><img class="image-flex" src="image/logo.png" alt="draw-rocket"></a>
-
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
             <a class="nav-link active" href="index.html">Início</a>
             <a class="nav-link active" href="index.html">Vagas</a>
@@ -37,97 +35,97 @@
             </div>
         </nav>
     </header>
+    <main>
+        <section>
 
-    <section>
-
-        <div class="container" id="container-cadastro-one">
-            <p>Bem-vindo! <br>Preencha seu cadastro.<br>Lembre-se: seus dados estarão protegidos e não são compartilhados a terceiros.<br>Pedimos que preencha com informações válidas para que possamos agilizar futuras entrevistas! ;)
-            </p>
-            <form>
-                <div class="form-group">
-                    <label for="exampleFormControlInput1">Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Como conheceu o site</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
+            <div class="container" id="container-cadastro-one">
+                <p>Bem-vindo! <br>Preencha seu cadastro.<br>Lembre-se: seus dados estarão protegidos e não são compartilhados a terceiros.<br>Pedimos que preencha com informações válidas para que possamos agilizar futuras entrevistas! ;)
+                </p>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Como conheceu o site</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
       <option>Internet</option>
       <option>Amigos</option>
       <option>Redes Sociais</option>
       <option>Rádios</option>
       <option>TVs</option>
     </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Conte-nos mais sobre você</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-            </form>
-            <form>
-                <div class="form-row">
-
-                    <div class="form-group col-md-6">
-                        <label for="inputPassword4">Digite sua nova senha</label>
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputAddress">Endereço</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="Rua Almirante Barroso">
-                </div>
-                <div class="form-group">
-                    <label for="inputAddress2">Cidade</label>
-                    <input type="text" class="form-control" id="inputAddress2" placeholder="Teresópolis">
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="inputCity">Complemento</label>
-                        <input type="text" class="form-control" id="inputCity" placeholder="Apartamento, estudio, condominio">
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Conte-nos mais sobre você</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
-                    <div class="form-group col-md-4">
-                        <label for="inputState">Estado</label>
-                        <select id="inputState" class="form-control">
+                </form>
+                <form>
+                    <div class="form-row">
+
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Digite sua nova senha</label>
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Endereço</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Rua Almirante Barroso">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2">Cidade</label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Teresópolis">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity">Complemento</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="Apartamento, estudio, condominio">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputState">Estado</label>
+                            <select id="inputState" class="form-control">
         <option selected>RJ</option>
         <option selected>SP</option>
         <option selected>MG</option>
       
       </select>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputZip">Cep</label>
+                            <input type="text" class="form-control" id="inputZip" placeholder="25965-265">
+                        </div>
                     </div>
-                    <div class="form-group col-md-2">
-                        <label for="inputZip">Cep</label>
-                        <input type="text" class="form-control" id="inputZip" placeholder="25965-265">
+                </form>
+                <form class="was-validated">
+                    <div class="custom-control custom-checkbox mb-3">
+                        <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
+                        <label class="custom-control-label" for="customControlValidation1">Aceito os termos</label>
+                        <div class="invalid-feedback">É necessário aceitar os termos</div>
                     </div>
-                </div>
-            </form>
-            <form class="was-validated">
-                <div class="custom-control custom-checkbox mb-3">
-                    <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
-                    <label class="custom-control-label" for="customControlValidation1">Aceito os termos</label>
-                    <div class="invalid-feedback">É necessário aceitar os termos</div>
-                </div>
 
-                <div class="form-group">
-                    <select class="custom-select" required>
+                    <div class="form-group">
+                        <select class="custom-select" required>
       <option value="">Envie-nos um curriculo</option>
       <option value="1">Atualizar curriculo</option>
       <option value="2">Enviar meu primeiro curriculo</option>
 
     </select>
-                    <div class="invalid-feedback">É necessário anexar suas informações</div>
-                </div>
+                        <div class="invalid-feedback">É necessário anexar suas informações</div>
+                    </div>
 
-                <div class="custom-file">
-                    <input type="file" class="custom-file-input" id="validatedCustomFile" required>
-                    <label class="custom-file-label" for="validatedCustomFile"></label>
-                    <div class="invalid-feedback">Escolha um arquivo válido</div>
-                </div>
-            </form>
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+                        <label class="custom-file-label" for="validatedCustomFile"></label>
+                        <div class="invalid-feedback">Escolha um arquivo válido</div>
+                    </div>
+                </form>
 
-        </div>
+            </div>
 
-    </section>
-
+        </section>
+    </main>
     <footer>
         <div id="contact-area ">
             <div class="container ">
@@ -154,6 +152,10 @@
     </footer>
     <!--Style CSS-->
     <style>
+        section {
+            font-family: Verdana, Geneva, Tahoma, sans-serif
+        }
+        
         .form-group {
             display: inline;
             border-radius: 10px;
