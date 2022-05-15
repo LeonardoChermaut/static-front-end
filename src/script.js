@@ -19,13 +19,4 @@ function getUsers() {
             description.innerHTML = ` ${user.location.city}<br>${user.location.country}<br>${user.location.timezone.description}`
         });
     })
-
-//tema escuro
-
-const chk = document.getElementById('chk')
-
-chk.addEventListener('change', () => {
-    document.body.classList.toggle('dark')
-})
-
 }
