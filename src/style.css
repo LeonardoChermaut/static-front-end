@@ -183,7 +183,6 @@
    @media (max-width: 1280px) {
        nav {
            padding: 0;
-           margin: 10px;
        }
        input,
        form {
@@ -214,8 +213,18 @@
    }
    
    @media (max-width: 600px) {
+       header img {
+           margin-right: -55px;
+           padding: 0;
+       }
        nav .nav-link {
            margin: 0;
-           font-size: 13px;
+           font-size: 12px;
+       }
+   }
+   
+   @media (max-width: 380px) {
+       body {
+           display: inline-block;
        }
    }
